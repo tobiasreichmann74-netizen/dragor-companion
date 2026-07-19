@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eaf7fb;
+    color: #243746;
+    padding-bottom: 80px;
+}
+
+
+/* Kopfbereich */
+
+header {
+    background: linear-gradient(160deg, #009fc6, #006994);
+    color: white;
+    padding: 35px 20px 45px;
+    text-align: center;
+    border-radius: 0 0 35px 35px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.date {
+    margin-top: 15px;
+    background: rgba(255,255,255,0.2);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/* Seiten */
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+
+/* Karten */
+
+.card {
+
+    background: white;
+
+    margin: -20px 15px 20px;
+
+    padding: 22px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+
+}
+
+
+.card h2 {
+
+    color:#0077a8;
+
+    margin-bottom:15px;
+
+}
+
+
+/* Countdown */
+
+#countdown {
+
+    text-align:center;
+
+    font-size:45px;
+
+    font-weight:bold;
+
+    color:#009fc6;
+
+}
+
+
+
+/* Budget */
+
+.progress {
+
+    height:15px;
+
+    background:#dceff4;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    margin-top:15px;
+
+}
+
+
+.progressbar {
+
+    height:100%;
+
+    width:100%;
+
+    background:linear-gradient(90deg,#00b4d8,#48cae4);
+
+}
+
+
+
+/* Menü */
+
+.menu {
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:15px;
+
+    padding:15px;
+
+}
+
+
+
+.menu button {
+
+    border:none;
+
+    background:white;
+
+    padding:22px 10px;
+
+    border-radius:22px;
+
+    font-size:16px;
+
+    color:#006994;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.1);
+
+}
+
+
+
+.menu button:active {
+
+    transform:scale(.96);
+
+}
+
+
+
+/* Listen */
+
+li {
+
+    margin:12px 0;
+
+}
+
+
+
+/* Navigation unten */
+
+nav {
+
+    position:fixed;
+
+    bottom:0;
+
+    left:0;
+
+    right:0;
+
+    height:70px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    box-shadow:0 -5px 20px rgba(0,0,0,.12);
+
+}
+
+
+nav button {
+
+    border:none;
+
+    background:none;
+
+    font-size:28px;
+
+}
+#karte{
+
+height:400px;
+width:100%;
+border-radius:15px;
+
+}

@@ -1,0 +1,2250 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🇩🇰 Dragør Companion 2026</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#C8102E">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+</head>
+
+
+<body>
+
+<header>
+
+<h1>🇩🇰 Dragør Companion</h1>
+
+<p>Unser Dänemark-Abenteuer 2026</p>
+
+<div class="date">
+02.08.2026 – 09.08.2026
+</div>
+
+</header>
+
+
+<section id="home" class="page active">
+
+<div class="card highlight">
+
+<h2>⏳ Countdown</h2>
+
+<div id="countdown">
+-- Tage
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>📅 Heute</h2>
+
+<h3 id="todayTitle">
+Vorfreude
+</h3>
+
+<p id="todayText">
+Wird geladen...
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h2>💰 Budget</h2>
+
+<p>
+Verfügbar:
+<strong>1000 €</strong>
+</p>
+
+<div class="progress">
+
+<div class="progressbar"></div>
+
+</div>
+
+</div>
+
+
+<div class="menu">
+
+
+<button onclick="openPage('plan')">
+📅 Reiseplan
+</button>
+
+
+<button onclick="openPage('food')">
+🍽 Restaurants
+</button>
+
+<button onclick="openPage('documents')">
+🎟️ Tickets
+</button>
+
+
+<button onclick="openPage('places')">
+🏰 Erlebnisse
+</button>
+
+<button onclick="openPage('map')">
+🗺️ Karte
+</button>
+
+<button onclick="openPage('diary')">
+📸
+</button>
+
+<button onclick="openPage('packing')">
+🎒 Packliste
+</button>
+
+
+
+<button onclick="openPage('budget')">
+💰 Budget
+</button>
+
+
+<button onclick="openPage('transport')">
+🚌 Verkehr
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="plan" class="page">
+
+
+<div class="card">
+
+<h2>📅 Euer Reiseplan</h2>
+
+<p>
+Dragør Companion 2026 🇩🇰
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>🚗 Sonntag, 02.08.2026</h2>
+
+<h3>Anreise Soest → Dragør</h3>
+
+<p>
+🚗 Start: Soest
+</p>
+
+<p>
+⛴️ Route:
+Puttgarden → Rødby mit Fähre
+</p>
+
+<p>
+🏠 Ziel:
+Dragør Apartments
+</p>
+
+<p>
+🌅 Abend:
+Hafen und Altstadt erkunden
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>⚓ Montag, 03.08.2026</h2>
+
+<h3>Dragør entdecken</h3>
+
+
+<h3>☕ Vormittag</h3>
+
+<ul>
+
+<li>Frühstück in der Ferienwohnung</li>
+
+<li>Spaziergang durch die historische Altstadt</li>
+
+<li>Gelbe Fischerhäuser fotografieren</li>
+
+<li>Dragør Hafen erkunden</li>
+
+</ul>
+
+
+<p>
+🚶 Laufstrecke:
+ca. 4 km
+</p>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🌊 Nachmittag</h3>
+
+<ul>
+
+<li>Dragør Strand</li>
+
+<li>Badestopp (wetterabhängig)</li>
+
+<li>Dragør Fort anschauen</li>
+
+<li>Spaziergang an der Küste</li>
+
+</ul>
+
+
+<p>
+💡 Spartipp:
+Die schönsten Erlebnisse in Dragør kosten nichts.
+</p>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🍽 Essen</h3>
+
+<p>
+
+Mittag:
+Snack oder Picknick
+
+</p>
+
+
+<p>
+
+Abend:
+Selbstversorgung in der Ferienwohnung
+
+</p>
+
+
+<p>
+
+Alternative:
+Hafenrestaurant für einen besonderen Abend
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+
+<ul>
+
+<li>Lebensmittel: ca. 15–25 €</li>
+
+<li>Eis/Kaffee: ca. 15 €</li>
+
+<li>Eintritte: 0 €</li>
+
+</ul>
+
+
+<p>
+Gesamt:
+ca. 30–40 €
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>⭐ Geheimtipp</h3>
+
+<p>
+
+Am frühen Abend noch einmal zum Hafen gehen.
+Das Licht dort ist besonders schön und die Stimmung ist viel ruhiger als tagsüber.
+
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🏰 Dienstag, 04.08.2026</h2>
+
+<h3>Kopenhagen Tag 1 – Die Klassiker</h3>
+
+<p>
+Der perfekte erste Kopenhagen-Tag:
+Hafen, Schlösser, Altstadt und die wichtigsten Fotospots.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🚍 Anreise von Dragør</h3>
+
+<ul>
+
+<li>Bus von Dragør Richtung Flughafen</li>
+
+<li>Weiter mit Metro nach Kopenhagen</li>
+
+<li>Alternative: Auto bis Amager + Metro</li>
+
+</ul>
+
+<p>
+💡 Spartipp:
+Vorher Ticketoptionen prüfen – für 4 Personen kann ein Gruppenticket interessant sein.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>☕ 09:30 – Nyhavn</h3>
+
+<ul>
+
+<li>Farbenfrohe Häuser</li>
+
+<li>Hafenfotos</li>
+
+<li>Spaziergang am Wasser</li>
+
+</ul>
+
+<p>
+Kosten:
+0 €
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>👑 10:30 – Schloss Amalienborg</h3>
+
+<ul>
+
+<li>Wohnsitz der dänischen Königsfamilie</li>
+
+<li>Wachablösung anschauen (wenn zeitlich passend)</li>
+
+<li>Marmorkirche besuchen</li>
+
+</ul>
+
+<p>
+Außen kostenlos.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🧜 12:00 – Kleine Meerjungfrau & Kastellet</h3>
+
+<ul>
+
+<li>Fotostopp Kleine Meerjungfrau</li>
+
+<li>Spaziergang durch Kastellet</li>
+
+<li>Schöne Aussicht aufs Wasser</li>
+
+</ul>
+
+
+<p>
+🚶 Laufstrecke bis hier:
+ca. 4 km
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍽 Mittagessen</h3>
+
+<p>
+Vorschlag:
+Preiswerte Mahlzeit statt teurem Hafenrestaurant.
+</p>
+
+<ul>
+
+<li>Street Food</li>
+
+<li>Bäckerei</li>
+
+<li>Torvehallerne als Erlebnis</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🛍 Nachmittag</h3>
+
+<ul>
+
+<li>Strøget</li>
+
+<li>Rundetårn</li>
+
+<li>Innenstadt entdecken</li>
+
+<li>Café oder Eis</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+<ul>
+
+<li>ÖPNV: ca. 40–60 €</li>
+
+<li>Essen: ca. 50–70 €</li>
+
+<li>Snacks/Eis: ca. 15 €</li>
+
+</ul>
+
+
+<p>
+Gesamt:
+ca. 100–130 €
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>⭐ Geheimtipp</h3>
+
+<p>
+
+Nicht zu lange in den Einkaufsstraßen bleiben.
+Die schönsten Erinnerungen entstehen am Wasser und in den kleinen Seitenstraßen.
+
+</p>
+
+</div>
+<div class="card">
+
+<h2>🇸🇪 Mittwoch, 05.08.2026</h2>
+
+<h3>Ystad & Malmö – Schweden mit dem Auto</h3>
+
+<p>
+Tagesausflug über die Öresundregion:
+erst gemütliches Ystad, danach Abend in Malmö.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🚗 08:30 Abfahrt Dragør</h3>
+
+<ul>
+
+<li>Frühstück in der Ferienwohnung</li>
+
+<li>Auto beladen</li>
+
+<li>Route Richtung Ystad</li>
+
+</ul>
+
+<p>
+💡 Tipp:
+Nicht zu spät starten, damit Ystad entspannt erlebt werden kann.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🏘️ 10:00 – Ystad</h3>
+
+<ul>
+
+<li>Historische Altstadt</li>
+
+<li>Fachwerkhäuser</li>
+
+<li>St.-Marien-Kirche</li>
+
+<li>Hafenbereich</li>
+
+<li>Spaziergang durch kleine Gassen</li>
+
+</ul>
+
+
+<p>
+🚶 Strecke:
+ca. 3–4 km
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍽 Mittagessen Ystad</h3>
+
+<p>
+
+Empfehlung:
+kleines Restaurant oder Café statt teurer Touristenlokale.
+
+</p>
+
+<ul>
+
+<li>Fischgerichte</li>
+
+<li>Schwedische Küche</li>
+
+<li>Kaffee & Kuchen (Fika)</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🌊 Nachmittag</h3>
+
+<ul>
+
+<li>Kurzer Stopp am Meer</li>
+
+<li>Strand oder Hafen</li>
+
+<li>Weiterfahrt nach Malmö</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🌆 Ab ca. 16:00 – Malmö</h3>
+
+<ul>
+
+<li>Lilla Torg</li>
+
+<li>Altstadt Gamla Väster</li>
+
+<li>Stortorget</li>
+
+<li>Blick auf den Turning Torso</li>
+
+</ul>
+
+
+<p>
+Malmö eignet sich perfekt für einen Abendspaziergang.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍽 Abendessen Malmö</h3>
+
+<p>
+
+Geplant:
+Restaurantbesuch als Highlight des Tages.
+
+</p>
+
+<ul>
+
+<li>gemütliche Atmosphäre</li>
+
+<li>gutes Preis-Leistungs-Verhältnis</li>
+
+<li>nicht direkt die teuerste Touristenlage</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🚗 Rückfahrt</h3>
+
+<p>
+
+Abfahrt Malmö ca. 20:00–21:00 Uhr
+
+</p>
+
+<p>
+
+Zurück nach Dragør über die Öresundregion.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+<ul>
+
+<li>Tanken/Parken: ca. 30–40 €</li>
+
+<li>Mittag: ca. 40–50 €</li>
+
+<li>Abendessen: ca. 50–70 €</li>
+
+</ul>
+
+<p>
+Gesamt:
+ca. 120–150 €
+</p>
+
+</div>
+<div class="card">
+
+<h2>🏰 Donnerstag, 06.08.2026</h2>
+
+<h3>Kopenhagen Tag 2 – Schlösser & Genuss</h3>
+
+<p>
+Heute entdecken wir die ruhigeren und königlicheren Seiten Kopenhagens.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🚍 Vormittag – Anreise</h3>
+
+<ul>
+
+<li>Frühstück in der Ferienwohnung</li>
+
+<li>Bus & Metro nach Kopenhagen</li>
+
+<li>Start in der Innenstadt</li>
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>👑 Schloss Rosenborg</h3>
+
+<ul>
+
+<li>Beeindruckendes Renaissance-Schloss</li>
+
+<li>Königlicher Garten (Kongens Have)</li>
+
+<li>Perfekt für Fotos</li>
+
+</ul>
+
+
+<p>
+💡 Spartipp:
+Der Garten ist kostenlos.
+Eintritt nur bei Interesse am Schlossinneren.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🌿 Botanischer Garten</h3>
+
+<ul>
+
+<li>Gewächshäuser</li>
+
+<li>Schöne Ruhepause</li>
+
+<li>Ideal mit Jugendlichen</li>
+
+</ul>
+
+
+<p>
+Kosten:
+Außenbereich kostenlos.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍽 Mittagessen</h3>
+
+<p>
+
+Empfehlung:
+Torvehallerne
+
+</p>
+
+<ul>
+
+<li>Viele Essensstände</li>
+
+<li>Jeder findet etwas</li>
+
+<li>Gute Alternative zu teuren Restaurants</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🌀 Rundetårn</h3>
+
+<ul>
+
+<li>Berühmter Aussichtsturm</li>
+
+<li>Kurzer, besonderer Besuch</li>
+
+<li>Tolle Aussicht über Kopenhagen</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🎡 Optional: Tivoli</h3>
+
+<p>
+
+Wenn ihr Lust auf einen besonderen Abend habt:
+
+</p>
+
+<ul>
+
+<li>Historischer Freizeitpark</li>
+
+<li>Besonders schön am Abend</li>
+
+<li>Beleuchtung lohnt sich</li>
+
+</ul>
+
+
+<p>
+💡 Spartipp:
+Vorher Preise prüfen – Tivoli kann das Budget deutlich erhöhen.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍦 Abschluss</h3>
+
+<ul>
+
+<li>Eis oder Café</li>
+
+<li>Letzter Spaziergang durch die Innenstadt</li>
+
+<li>Rückfahrt nach Dragør</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+<ul>
+
+<li>ÖPNV: ca. 40–60 €</li>
+
+<li>Essen: ca. 50–70 €</li>
+
+<li>Eintritte optional</li>
+
+</ul>
+
+
+<p>
+Gesamt:
+ca. 90–130 €
+</p>
+
+</div>
+<div class="card">
+
+<h2>🌊 Freitag, 07.08.2026</h2>
+
+<h3>Dragør – Meer, Strand & Erholung</h3>
+
+<p>
+Ein entspannter Urlaubstag ohne großen Fahrstress.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>☕ Vormittag</h3>
+
+<ul>
+
+<li>Frühstück in der Ferienwohnung</li>
+
+<li>Spaziergang durch den Hafen</li>
+
+<li>Kleine Läden und Altstadt entdecken</li>
+
+<li>Kaffee oder Eis</li>
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🏖 Nachmittag</h3>
+
+<ul>
+
+<li>Dragør Strand</li>
+
+<li>Baden (je nach Wetter)</li>
+
+<li>Picknick am Wasser</li>
+
+<li>Fotos am Hafen</li>
+
+</ul>
+
+
+<p>
+🚶 Laufstrecke:
+ca. 4–6 km
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🛒 Einkauf & Vorbereitung</h3>
+
+<ul>
+
+<li>Lebensmittel auffüllen</li>
+
+<li>Snacks für Rückfahrt</li>
+
+<li>Getränke besorgen</li>
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>🍽 Abendessen</h3>
+
+<p>
+
+Heute wieder Selbstversorgung in der Ferienwohnung.
+
+</p>
+
+<p>
+
+Alternative:
+Fisch oder dänischer Snack am Hafen.
+
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+<ul>
+
+<li>Einkäufe: ca. 30–50 €</li>
+
+<li>Eis/Kaffee: ca. 15 €</li>
+
+</ul>
+
+<p>
+Gesamt:
+ca. 45–65 €
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>⭐ Geheimtipp</h3>
+
+<p>
+
+Den letzten Abend in Dragør am Hafen verbringen.
+Bei Sonnenuntergang ist die Atmosphäre besonders schön.
+
+</p>
+
+</div>
+<div class="card">
+
+<h2>🏰 Samstag, 08.08.2026</h2>
+
+<h3>Großer Abschlusstag</h3>
+
+<p>
+Heute entscheidet das Wetter:
+Naturerlebnis oder Schlossbesuch.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>☀️ Option A – Stevns Klint</h2>
+
+<h3>🌊 Kreidefelsen & Meer</h3>
+
+<ul>
+
+<li>UNESCO-Welterbe</li>
+
+<li>Spektakuläre Aussicht</li>
+
+<li>Højerup Alte Kirche</li>
+
+<li>Spaziergang an der Küste</li>
+
+</ul>
+
+
+<p>
+🚗 Fahrt:
+ca. 1 Stunde
+</p>
+
+
+<p>
+🚶 Laufstrecke:
+ca. 4–6 km
+</p>
+
+
+<p>
+💡 Vorteil:
+Weniger Fahrzeit als Møns Klint.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🌊 Option B – Møns Klint</h2>
+
+<h3>Das große Naturerlebnis</h3>
+
+<ul>
+
+<li>Berühmte weiße Kreidefelsen</li>
+
+<li>Aussichtspunkte</li>
+
+<li>Besucherzentrum</li>
+
+<li>Strandwanderung möglich</li>
+
+</ul>
+
+
+<p>
+🚗 Fahrt:
+länger, aber spektakulär
+</p>
+
+
+<p>
+💡 Empfehlung:
+Nur bei gutem Wetter.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🌧️ Option C – Schloss Frederiksborg</h2>
+
+<h3>Perfekt bei schlechtem Wetter</h3>
+
+<ul>
+
+<li>Eines der schönsten Schlösser Dänemarks</li>
+
+<li>Innenräume beeindruckend</li>
+
+<li>Schlossgarten</li>
+
+<li>Hillerød entdecken</li>
+
+</ul>
+
+
+<p>
+Auch für Jugendliche interessant.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍽 Essen</h3>
+
+<p>
+
+Mittags:
+Picknick oder Café unterwegs
+
+</p>
+
+
+<p>
+
+Abends:
+Letztes gemeinsames Essen oder Resteverwertung in der Wohnung.
+
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>💰 Tagesbudget</h3>
+
+<ul>
+
+<li>Sprit: ca. 20–40 €</li>
+
+<li>Essen: ca. 40–60 €</li>
+
+<li>Eintritte optional</li>
+
+</ul>
+
+
+<p>
+Gesamt:
+ca. 60–100 €
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>⭐ Unser Tipp</h3>
+
+<p>
+
+Nicht alles erzwingen.
+Der letzte volle Urlaubstag soll entspannt bleiben.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="food" class="page">
+
+
+<div class="card">
+
+<h2>🍽 Restaurantführer</h2>
+
+<p>
+Ausgewählte Tipps für unsere Dänemark-Reise 🇩🇰🇸🇪
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>⚓ Dragør</h2>
+
+<h3>🍦 Hafen & Altstadt</h3>
+
+<p>
+
+Perfekt für Eis, Kaffee oder einen kleinen Snack.
+
+</p>
+
+
+<ul>
+
+<li>Schöne Atmosphäre am Wasser</li>
+
+<li>Ideal nach dem Spaziergang</li>
+
+<li>Nicht jeden Abend Restaurant nötig – Wohnung spart Geld</li>
+
+</ul>
+
+
+<p>
+💰 Preis:
+günstig bis mittel
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🏰 Kopenhagen</h2>
+
+
+<h3>🥪 Torvehallerne</h3>
+
+<p>
+
+Viele verschiedene Essensstände.
+Gut für Familien, weil jeder etwas findet.
+
+</p>
+
+
+<ul>
+
+<li>Smørrebrød</li>
+
+<li>Burger</li>
+
+<li>Backwaren</li>
+
+<li>Desserts</li>
+
+</ul>
+
+
+<p>
+💰 Preis:
+ca. 10–20 € pro Person
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>🍔 Street Food Tipp</h3>
+
+<p>
+
+Eine günstigere Alternative zu klassischen Restaurants.
+
+</p>
+
+<ul>
+
+<li>Große Auswahl</li>
+
+<li>Locker mit Jugendlichen</li>
+
+<li>Keine langen Restaurantzeiten</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🇸🇪 Ystad</h2>
+
+
+<h3>☕ Schwedische Fika</h3>
+
+<p>
+
+Ein Café-Stopp gehört in Schweden einfach dazu.
+
+</p>
+
+
+<ul>
+
+<li>Kaffee</li>
+
+<li>Kuchen</li>
+
+<li>Zimtschnecken</li>
+
+</ul>
+
+
+<p>
+💰 Preis:
+ca. 5–10 € pro Person
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🌆 Malmö</h2>
+
+
+<h3>🍽 Abendessen</h3>
+
+
+<p>
+
+Für euren Malmö-Abend wählen wir später gezielt ein gutes Preis-Leistungs-Restaurant aus.
+
+</p>
+
+
+<ul>
+
+<li>Familiengeeignet</li>
+
+<li>Nicht direkt Touristenfalle</li>
+
+<li>Gute Bewertungen</li>
+
+</ul>
+
+
+<p>
+💰 Ziel:
+ca. 15–25 € pro Person
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>💡 Spartipps Essen</h2>
+
+<ul>
+
+<li>Frühstück immer in der Ferienwohnung</li>
+
+<li>Getränke im Supermarkt kaufen</li>
+
+<li>Mittagsangebote nutzen</li>
+
+<li>Ein Restaurant-Highlight pro Tag reicht</li>
+
+</ul>
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+<section id="places" class="page">
+
+
+<div class="card">
+
+<h2>🏰 Sehenswürdigkeiten</h2>
+
+<p>
+Schlösser, Strände, Häfen und Museen folgen.
+</p>
+
+</div>
+
+
+</section>
+
+<section id="map" class="page">
+
+
+<div class="card">
+
+<h2>🗺️ Unsere Dänemark-Karte</h2>
+
+<p>
+Alle wichtigen Orte unserer Reise 🇩🇰
+</p>
+
+<div id="karte"></div>
+
+</div>
+
+
+<div class="card">
+
+<h3>📍 Dragør</h3>
+
+<p>
+Startpunkt:
+Hafen, Altstadt, Strand
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🇩🇰 Kopenhagen</h3>
+
+<p>
+Nyhavn, Schlösser, Innenstadt
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🇸🇪 Schweden</h3>
+
+<p>
+Ystad & Malmö Tagesausflug
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🌊 Natur</h3>
+
+<p>
+Stevns Klint / Møns Klint
+</p>
+
+</div>
+
+
+</section>
+
+
+
+<section id="packing" class="page">
+
+
+<div class="card">
+
+<h2>🎒 Packliste</h2>
+
+<p>
+Dragør Reise 2026 🇩🇰
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>📄 Dokumente</h2>
+
+<label>
+<input type="checkbox">
+ Personalausweise
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Führerschein
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Fährunterlagen
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Ferienwohnung Buchung
+</label>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>👕 Kleidung</h2>
+
+<label>
+<input type="checkbox">
+ T-Shirts
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Pullover / Jacke
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Lange Hose
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Schlafsachen
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Schuhe
+</label>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🌊 Strand</h2>
+
+<label>
+<input type="checkbox">
+ Badebekleidung
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Handtücher
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Sonnencreme
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Sonnenbrille
+</label>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🍳 Ferienwohnung</h2>
+
+<label>
+<input type="checkbox">
+ Trinkflaschen
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Lieblingsgewürze
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Einkaufstaschen
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Kleine Spiele
+</label>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>📱 Technik</h2>
+
+<label>
+<input type="checkbox">
+ Handyladegeräte
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Powerbank
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Kamera
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Autoladekabel
+</label>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🚗 Auto</h2>
+
+<label>
+<input type="checkbox">
+ Warnwesten
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Verbandkasten
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Snacks für Fahrt
+</label>
+
+<br>
+
+<label>
+<input type="checkbox">
+ Getränke
+</label>
+
+</div>
+
+
+
+</section>
+
+<section id="diary" class="page">
+
+
+<div class="card">
+
+<h2>📸 Unser Reisetagebuch</h2>
+
+<p>
+Unsere schönsten Momente in Dragør 🇩🇰
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h2>📝 Neuer Eintrag</h2>
+
+
+<input 
+id="tagebuchTitel"
+placeholder="Titel">
+
+
+<br><br>
+
+
+<textarea 
+id="tagebuchText"
+placeholder="Unser Moment...">
+</textarea>
+
+<br><br>
+
+<input 
+type="file"
+id="tagebuchBild"
+accept="image/*">
+
+<br><br>
+
+
+<button onclick="tagebuchSpeichern()">
+Speichern
+</button>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h2>⭐ Erinnerungen</h2>
+
+<div id="tagebuchListe">
+
+</div>
+
+</div>
+
+
+</section>
+
+<section id="budget" class="page">
+
+
+<div class="card">
+
+<h2>💰 Budgetverwaltung</h2>
+
+<p>
+Startbudget:
+<strong>1000 €</strong>
+</p>
+
+<p>
+Verfügbar:
+<strong id="restBudget">1000 €</strong>
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>➕ Ausgabe hinzufügen</h2>
+
+
+<select id="kategorie">
+
+<option>⛽ Sprit</option>
+<option>⛴️ Fähre</option>
+<option>🛒 Einkäufe</option>
+<option>🍽 Restaurant</option>
+<option>🎟 Tickets</option>
+<option>🎁 Sonstiges</option>
+
+</select>
+
+
+<br><br>
+
+
+<input 
+type="number"
+id="betrag"
+placeholder="Betrag €">
+
+
+<br><br>
+
+
+<button onclick="ausgabeHinzufuegen()">
+Speichern
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>📋 Ausgaben</h2>
+
+<ul id="ausgaben">
+
+</ul>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="transport" class="page">
+
+
+<div class="card">
+
+<h2>🚌 Verkehr & Tickets</h2>
+
+<p>
+Unsere Transportplanung für Dragør, Kopenhagen und Umgebung 🇩🇰
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🏠 Dragør → Kopenhagen</h2>
+
+<h3>Empfohlene Variante</h3>
+
+<ul>
+
+<li>Bus Richtung Flughafen / Metro-Anschluss</li>
+
+<li>Weiterfahrt mit Metro in die Innenstadt</li>
+
+<li>Kein Auto in Kopenhagen notwendig</li>
+
+</ul>
+
+
+<p>
+💡 Vorteil:
+Kein Parkplatzstress und entspannter Sightseeing-Tag.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🎟️ Ticketstrategie</h2>
+
+
+<h3>Kopenhagen Tag 1</h3>
+
+<p>
+Viele Fahrten:
+Ticketoption prüfen.
+</p>
+
+
+<h3>Kopenhagen Tag 2</h3>
+
+<p>
+Vergleichen:
+Einzelfahrten oder Tageskarte.
+</p>
+
+
+<p>
+Die günstigste Lösung hängt von den benötigten Zonen und Fahrten ab.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>📱 Wichtige Apps</h2>
+
+<ul>
+
+<li>Rejsebillet – Tickets</li>
+
+<li>DOT – Informationen</li>
+
+<li>Google Maps – Navigation</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🚗 Auto-Ausflüge</h2>
+
+
+<ul>
+
+<li>Ystad & Malmö → Auto</li>
+
+<li>Klippen-Ausflug → Auto</li>
+
+<li>Dragør Umgebung → Auto möglich</li>
+
+</ul>
+
+
+<p>
+Kopenhagen selbst lieber ohne Auto.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>💡 Spartipps</h2>
+
+<ul>
+
+<li>Tickets nicht spontan am Automaten kaufen, vorher vergleichen</li>
+
+<li>ÖPNV nur an den Tagen nutzen, an denen es sich lohnt</li>
+
+<li>Für Familien immer die Gesamtkosten vergleichen</li>
+
+</ul>
+
+</div>
+
+
+</section>
+
+
+<section id="documents" class="page">
+
+
+<div class="card">
+
+<h2>🎟️ Tickets & Dokumente</h2>
+
+<p>
+Alle wichtigen Reiseunterlagen an einem Ort.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>🏠 Ferienwohnung</h2>
+
+<ul>
+
+<li>Dragør Apartments</li>
+
+<li>Adresse eintragen</li>
+
+<li>Check-in Informationen</li>
+
+<li>Kontakt Vermieter</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>⛴️ Fähre</h2>
+
+<ul>
+
+<li>Route:
+Puttgarden → Rødby</li>
+
+<li>Buchungsnummer:</li>
+
+<li>Abfahrtszeit:</li>
+
+<li>Ticket gespeichert:</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>🚌 Öffentliche Verkehrsmittel</h2>
+
+<ul>
+
+<li>Rejsebillet Ticket</li>
+
+<li>Kopenhagen Fahrkarten</li>
+
+<li>QR-Code später ergänzen</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h2>📞 Wichtige Kontakte</h2>
+
+<ul>
+
+<li>Ferienwohnung:</li>
+
+<li>Notruf Dänemark: 112</li>
+
+<li>Versicherung:</li>
+
+</ul>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h2>📷 Dokumente</h2>
+
+<p>
+
+Hier können später Fotos oder Dateien ergänzt werden:
+
+</p>
+
+<ul>
+
+<li>Ausweise</li>
+
+<li>Buchungen</li>
+
+<li>Tickets</li>
+
+</ul>
+
+</div>
+
+
+
+</section>
+
+
+<nav>
+
+<button onclick="openPage('home')">
+🏠
+</button>
+
+<button onclick="openPage('plan')">
+📅
+</button>
+
+<button onclick="openPage('food')">
+🍽
+</button>
+
+<button onclick="openPage('packing')">
+🎒
+</button>
+
+</nav>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
